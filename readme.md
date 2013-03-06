@@ -1,17 +1,11 @@
-Hello, World!
-=============
+Gist
+====
 
-"Hello, World!" is a small sample extension to display a short greeting in your templates. Use it by simply placing the following in your template:
+"Gist" is a small sample extension to embed Github Gists in your templates. 
+Use it by simply placing the following in your template:
 
-    {{ helloworld() }}
+    {{ gist('bobdenotter/5076735') }}
 
-You can customize the output by including a name or variable:
+Replace the `bobdenotter/5076735` part with the gist you actually want to display. 
 
-    {{ helloworld("Bob") }}
-
-    {{ helloworld(record.user.displayname)}}
-
-The default greeting is "world". You can customize it by editing the (very simple) `config.yml` file.
-
-    name: Stranger
 
