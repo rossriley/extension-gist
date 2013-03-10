@@ -1,6 +1,4 @@
 <?php
-// Hello World Extension for Bolt
-// Minimum version: 0.7
 
 namespace Gist;
 
