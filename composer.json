@@ -1,0 +1,19 @@
+{
+    "name": "ross/extension-gist",
+    "description": "A small extension to embed Gists, using <code>{{ gist() }}</code> in your templates.",
+    "require": {
+        "bolt/bolt": ">1.6,<2.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bob den Otter",
+            "email": "bob@twokings.nl"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.7.*"
+        }
+    }
+}
